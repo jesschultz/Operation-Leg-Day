@@ -13,9 +13,13 @@ The purpose of this software is provide a membership tracking platform for use b
 # Features & Benefits
 
 -Adding/Removing accounts
+
 -Changing membership options
+
 -Creating new utilities/activities
+
 -Convenient member access for viewing & limited account changes
+
 -Changes are immediate
 
 # Front end
@@ -44,55 +48,91 @@ use once compiled.
 # Hardware
 
 -Minimum 32-bit processor
+
 -1 GB storage minimum
+
 -256 MB of free disk space for job result directory and log directory
 (total 508 MB)
 
 # Software
 
 -Windows 7 or Newer
+
 -Java JDK 11.0.5
+
 -Eclipse IDE 2019-09
+
   Plug-ins / Packages Used: 
+  
     PostgreSQL JDBC Driver
+    
     Bcrypt Java Package
+    
     Eclipse Swing add-on
+    
 
 -PostgreSQL Version 11.6
+
 -AIX, FreeBSD, Linux, Solaris, Windows compatible
 
 # Conceptual Design
 
 List of Entities
+
   -Client
+  
   -Login
+  
   -Tier Options
+  
   -Relationship
+  
 
 List of attributes
+
   Client:
+  
     -E-mail
+    
     -Phone number
+    
     -Employee
+    
       o (1 for yes 0 for no)
+      
     -First Name
+    
     -Last Name
+    
     -Tier
+    
       o Three levels of membership
+      
 
 Login
+
   -Username
+  
   -Password
 
 Tier Options
+
   -Phone number
+  
   -Tier Level
+  
   -Tennis Court
+  
   -Football Field
+  
   -Yoga Class
+  
   -Zoomba Class
+  
   -Pool
 
 Relationship
+
   -E-mail
+  
   -Username
